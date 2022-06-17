@@ -1,0 +1,49 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #575758, #141414);
+}
+
+.nom{
+    font-size: 30px;
+    color: white;
+}
+
+
+.bg ul li:hover{
+    transform: scale(1.1);
+}
+
+ul li :hover, ul li :focus{
+    color: yellow;
+}
+
+ul li{
+    display: inline-flex;
+    border: 1px solid rgb(0, 0, 0.15);
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(46, 30, 1);
+    border-radius: 50px;
+    width: 350px;
+    height: 100px;
+    display: inline-flex;
+}
+
+ul li a{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: yellowgreen;
+}
+
+.con{
+    text-align: end;
+    color: wheat;
+    font-size: 20px;
+}
+
+
+
+

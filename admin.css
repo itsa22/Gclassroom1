@@ -1,0 +1,64 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #575758, #141414);
+}
+
+.bg ul li:hover{
+    transform: scale(1.1);
+}
+
+ul li{
+    display: inline-flex;
+    border: 1px solid rgb(0, 0, 0.15);
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(46, 30, 1);
+    border-radius: 50px;
+    width: 350px;
+    height: 100px;
+    display: inline-flex;
+    text-align: center;
+    transition: margin-right 2s;
+}
+ul li :hover, ul li :focus{
+    /*color: #333;
+    background-color: #fff;*/
+    color: yellow;
+    /*font-size: 36px;*/
+    /*background: blueviolet;
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    transition: 500ms linear; */
+    /*color: #333;
+    background-color: #fff;*/
+}
+
+ul li a{
+    padding: 5px;
+    margin: 5px;
+    color: yellowgreen;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1{
+    font-size: 35px;
+    color: yellow;
+    text-align: center;
+}
+
+.admin{
+    font-size: 30px;
+    color: white;
+}
+
+.conn{
+    text-align: end;
+    color: wheat;
+    font-size: 20px;
+}
+
+

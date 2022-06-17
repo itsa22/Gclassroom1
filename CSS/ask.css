@@ -1,0 +1,28 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #575758, #141414);
+}
+form{
+    border: 0px solid gray;
+    height: 200px;
+    padding: 40px 50px;
+    margin-top: 40px;
+    background: rgba(0, 0, 0, 0.1); 
+    box-shadow: 1px 4px 30px rgba(0, 0, 0, 0.8);
+} 
+h1{
+    text-align: center;
+    color: ivory;
+    margin-top: 30px;
+}
+.form-group:hover{
+    background-color: #ddd;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 4px 30px rgba(84, 245, 138, 0.8);
+}
+.btn-success{
+    float: right;
+    width: 300px;
+}

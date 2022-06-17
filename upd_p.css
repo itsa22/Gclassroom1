@@ -1,0 +1,12 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #575758, #141414);
+}
+
+.tt{
+    color: aliceblue;
+}
+
+
+
